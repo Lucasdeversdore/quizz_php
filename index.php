@@ -2,7 +2,7 @@
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
-    $_SESSION['username'] = htmlspecialchars($_POST['username'], ENT_QUOTES, 'UTF-8');
+    $_SESSION['username'] = htmlspecialchars($_POST['username'], 'UTF-8');
 
     header("Location: " . $_SERVER['PHP_SELF']); // reset la page
     exit;
@@ -78,6 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
 </head>
 <body>
     <img src="image/quizz.png" alt="Quizz Image" class="header-image"> 
+
     <div class="formulaier">
         <h1>Bienvenue</h1>
         <form action="gerer_fichier.php?action=upload" method="POST" enctype="multipart/form-data">
@@ -88,5 +89,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
             <button type="submit">Bonne chance</button>
         </form>
     </div>
+
 </body>
 </html>

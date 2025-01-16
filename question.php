@@ -15,7 +15,7 @@ class Question {
         return $this->texte;
     }
 
-    public function getchoix(): array {
+    public function getChoix(): array {
         return $this->choix;
     }
 
