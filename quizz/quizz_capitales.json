@@ -1,0 +1,55 @@
+{
+    "title": "Quiz sur les capitales",
+    "questions": [
+        {
+            "text": "Quelle est la capitale de la France ?",
+            "choices": ["Berlin", "Paris", "Madrid", "Rome"],
+            "answer": "Paris"
+        },
+        {
+            "text": "Quelle est la capitale du Japon ?",
+            "choices": ["Séoul", "Beijing", "Tokyo", "Bangkok"],
+            "answer": "Tokyo"
+        },
+        {
+            "text": "Quelle est la capitale du Canada ?",
+            "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+            "answer": "Ottawa"
+        },
+        {
+            "text": "Quelle est la capitale de l'Australie ?",
+            "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+            "answer": "Canberra"
+        },
+        {
+            "text": "Quelle est la capitale de l'Italie ?",
+            "choices": ["Florence", "Milan", "Rome", "Venise"],
+            "answer": "Rome"
+        },
+        {
+            "text": "Quelle est la capitale du Brésil ?",
+            "choices": ["São Paulo", "Brasilia", "Rio de Janeiro", "Salvador"],
+            "answer": "Brasilia"
+        },
+        {
+            "text": "Quelle est la capitale du Royaume-Uni ?",
+            "choices": ["Dublin", "Edimbourg", "Londres", "Cardiff"],
+            "answer": "Londres"
+        },
+        {
+            "text": "Quelle est la capitale de l'Allemagne ?",
+            "choices": ["Munich", "Hambourg", "Berlin", "Francfort"],
+            "answer": "Berlin"
+        },
+        {
+            "text": "Quelle est la capitale de l'Espagne ?",
+            "choices": ["Madrid", "Barcelone", "Valence", "Séville"],
+            "answer": "Madrid"
+        },
+        {
+            "text": "Quelle est la capitale de l'Inde ?",
+            "choices": ["Bombay", "New Delhi", "Chennai", "Bangalore"],
+            "answer": "New Delhi"
+        }
+    ]
+}
