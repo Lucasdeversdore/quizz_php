@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Modele;
+
 class Question {
     private string $texte;
     private array $choix;

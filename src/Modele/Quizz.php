@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Modele;
+
 class Quizz {
     private string $titre;
     private array $lesQuestions;

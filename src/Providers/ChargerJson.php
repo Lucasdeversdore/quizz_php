@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Providers;
+
 class ChargerJson {
     public static function charger(string $filepath): array {
         if (!file_exists($filepath)) {

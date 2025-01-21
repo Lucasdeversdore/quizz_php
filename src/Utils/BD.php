@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Utils;
+
+use PDO;
+use RuntimeException;
+
 class BD {
     private static ?PDO $pdo = null;
 

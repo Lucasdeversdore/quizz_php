@@ -1,0 +1,55 @@
+{
+    "title": "Quiz sur League of Legends",
+    "questions": [
+        {
+            "text": "Quel est le rôle de Yasuo dans League of Legends ?",
+            "choices": ["ADC", "Support", "Assassin", "Midlaner"],
+            "answer": "Midlaner"
+        },
+        {
+            "text": "Qui est le champion avec la capacité ultime \"Ragnarok\" ?",
+            "choices": ["Tryndamere", "Olaf", "Rengar", "Garen"],
+            "answer": "Olaf"
+        },
+        {
+            "text": "Quel est le nom de l'univers de League of Legends ?",
+            "choices": ["Runeterra", "Valoran", "Ionia", "Shurima"],
+            "answer": "Runeterra"
+        },
+        {
+            "text": "Quel est le rôle principal de Jinx ?",
+            "choices": ["Tank", "Support", "ADC", "Assassin"],
+            "answer": "ADC"
+        },
+        {
+            "text": "Qui est le champion dont la phrase emblématique est \"Death is like the wind - always by my side\" ?",
+            "choices": ["Yasuo", "Zed", "Katarina", "Shaco"],
+            "answer": "Yasuo"
+        },
+        {
+            "text": "Quel est le champion dont la compétence ultime est \"The Box\" ?",
+            "choices": ["Leona", "Jhin", "Thresh", "Blitzcrank"],
+            "answer": "Thresh"
+        },
+        {
+            "text": "Quel est le rôle de Seraphine dans League of Legends ?",
+            "choices": ["ADC", "Support", "Mage", "Tank"],
+            "answer": "Mage"
+        },
+        {
+            "text": "Quel champion possède l'ultime \"Megalodon\" ?",
+            "choices": ["Kog'Maw", "Cho'Gath", "Sion", "Skarner"],
+            "answer": "Cho'Gath"
+        },
+        {
+            "text": "Comment s'appelle le dieu du chaos dans l'univers de League of Legends ?",
+            "choices": ["Aatrox", "Ryze", "Malphite", "Yone"],
+            "answer": "Aatrox"
+        },
+        {
+            "text": "Quel champion peut devenir invisible grâce à sa compétence \"Passive\" ?",
+            "choices": ["Akali", "Evelynn", "Kha'Zix", "Shaco"],
+            "answer": "Evelynn"
+        }
+    ]
+}

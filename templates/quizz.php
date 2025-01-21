@@ -92,7 +92,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
     <h1><?= $quizz->getTitre() ?></h1> 
     <p>Bienvenue, <?= htmlspecialchars($_SESSION['username'], ENT_QUOTES, 'UTF-8') ?> !</p>
     <form method="POST" action="gerer_fichier.php?action=check">
-    <?php var_dump($quizz); ?>
         <?php foreach ($quizz->getLesQuestions() as $index => $lesQuestions): ?>
             <fieldset>
                 <legend><?= $lesQuestions->getTexte() ?></legend> <!-- La question --> 

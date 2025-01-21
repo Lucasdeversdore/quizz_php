@@ -1,7 +1,9 @@
 <?php
 
-require 'BD.php';
+namespace App\Utils;
 
+use PDO;
+use RuntimeException;
 class Score {
     public static function sauverLeScore(int $idJoueur, string $nomJoueur, int $score): void {
         try {
